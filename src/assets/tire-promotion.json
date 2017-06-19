@@ -1,0 +1,38 @@
+[
+  {
+    "bannerName": "728x90",
+    "bannerImage": "./assets/images/tire/Tire_728x90.jpg",
+    "bannerAnimation": "./assets/images/tire/Tire_728x90.gif",
+    "segment": "Tire Promotion"
+
+  },
+  {
+    "bannerName": "300x250",
+    "bannerImage": "./assets/images/tire/Tire_300x250.jpg",
+    "bannerAnimation": "./assets/images/tire/Tire_300x250.gif",
+    "segment": "Tire Promotion"
+
+  },
+  {
+    "bannerName": "300x600",
+    "bannerImage": "./assets/images/tire/Tire_300x600.jpg",
+    "bannerAnimation": "./assets/images/tire/Tire_300x600.gif",
+    "segment": "Tire Promotion"
+
+  },
+  {
+    "bannerName": "160x600",
+    "bannerImage": "./assets/images/tire/Tire_160x600.jpg",
+    "bannerAnimation": "./assets/images/tire/Tire_160x600.gif",
+    "segment": "Tire Promotion"
+
+  },
+  {
+    "bannerName": "320x50",
+    "bannerImage": "./assets/images/tire/Tire_320x50.jpg",
+    "bannerAnimation": "./assets/images/tire/Tire_320x50.gif",
+    "segment": "Tire Promotion"
+
+  }
+]
+

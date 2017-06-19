@@ -1,0 +1,38 @@
+
+.my-nav {
+    background-color: #000;
+    height: 150px;
+    margin-bottom: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.nav-wrap {
+    width: 75%;
+    height: 150px;
+    margin: 0 auto;
+    
+}
+
+.nav-wrap h3 {
+    float: left;
+    padding: 60px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+
+.nav-wrap img {
+    padding: 35px;
+    float: right;
+    
+}
+
+
+    
+
