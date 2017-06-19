@@ -8,12 +8,14 @@ import { BodyComponent } from './body/body.component';
 
 import { BannerService } from "app/shared/service/banner.service";
 import { HttpModule } from "@angular/http";
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BodyComponent,
-    AppHeaderComponent
+    AppHeaderComponent,
+    NavigationComponent
     
   ],
   imports: [

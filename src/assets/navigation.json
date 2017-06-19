@@ -1,0 +1,39 @@
+[
+
+{
+"title":"Tire Promotion",
+"id": 1
+
+},
+
+{
+"title":"Major Maintenance",
+"id": 2
+
+},
+
+{
+"title":"Minor Maintenance",
+"id": 3
+
+},
+
+{
+"title":"First Scheduled Maintenance",
+"id": 4
+
+},
+
+{
+"title":"Loyalty Starter",
+"id": 5
+
+},
+
+{
+"title":"Service to Sales",
+"id": 6
+
+}
+
+]
