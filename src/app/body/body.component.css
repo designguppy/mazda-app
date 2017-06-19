@@ -1,0 +1,60 @@
+
+
+.body-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 250px;
+    z-index: 0;
+    
+}
+
+.button-click {
+    padding: 10px 30px;
+    margin: 0 auto;
+    color: #000;
+    border-radius: 3px;
+    transition: .2s ease-in-out;
+    border: 2px solid #000;
+    position: relative;
+    margin-bottom: 40px;
+    width:100px;
+    text-align:center;
+    font-weight: 700;
+    letter-spacing: 5px;
+    
+}
+
+.button-click:hover {
+    background:#910a2d;
+    color: #fff;
+    border: #910a2d;
+    border: 2px solid #910a2d;
+    cursor:pointer;
+    
+}
+
+h3, h4 {
+    text-align-last: center;
+    letter-spacing: 5px;
+    
+}
+
+
+p {
+    text-align-last: center;
+    letter-spacing: 5px;
+    font-weight: 700;
+    margin: 25px;
+    
+}
+
+
+
+
+.banner img {
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+
+
+}

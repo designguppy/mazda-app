@@ -4,15 +4,23 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
 
+import { BodyComponent } from './body/body.component';
+
+import { BannerService } from "app/shared/service/banner.service";
+import { HttpModule } from "@angular/http";
+
 @NgModule({
   declarations: [
     AppComponent,
+    BodyComponent,
     AppHeaderComponent
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [BannerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

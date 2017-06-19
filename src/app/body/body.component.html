@@ -1,0 +1,11 @@
+<div class="body-wrapper">
+  <div class="banner" *ngFor="let b of banners">
+    <div>
+      <div (click)="onBannerPlay($event.target, b)">
+        <img src="{{b.bannerImage}}">
+        <p>{{b.bannerName}}</p>
+        <div class="button-click">PLAY</div>
+      </div>
+    </div>
+  </div>
+</div>
