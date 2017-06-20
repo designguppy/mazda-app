@@ -7,6 +7,7 @@ import { AppHeaderComponent } from './app-header/app-header.component';
 import { BodyComponent } from './body/body.component';
 
 import { BannerService } from "app/shared/service/banner.service";
+import { NavigationService } from "app/shared/service/navigation.service";
 import { HttpModule } from "@angular/http";
 import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
@@ -24,7 +25,7 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     HttpModule
   ],
-  providers: [BannerService],
+  providers: [BannerService, NavigationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

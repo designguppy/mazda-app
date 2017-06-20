@@ -1,59 +1,28 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationService } from "app/shared/service/navigation.service";
+import { Navigation } from "app/shared/navigation";
 
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.css']
 })
+
+
 export class NavigationComponent implements OnInit {
-    onClick(){
-      console.log("i clicked you");
 
-    };
+ private links: Navigation[];
 
-   private links;
-  constructor() {
+  constructor(private _ns: NavigationService ) {
     
-    this.links = [
-      {
-        href:"index.html",
-        title: "Tire Promotion"
-
-      },
-
-      {
-        href:"index.html",
-        title: "Major Maintenance"
-
-      },
-
-      {
-        href:"index.html",
-        title: "Minor Maintenance"
-
-      },
-
-      {
-        href:"index.html",
-        title: "First Scheduled Maintenance"
-
-      },
-
-      {
-        href:"index.html",
-        title: "Loyalty Starter"
-
-      },
-
-      {
-        href:"index.html",
-        title: "Service To Service"
-
-      }
-    ];
   }
 
+  
   ngOnInit() {
+    
+    this._ns.getNavigation().subscribe( links => {
+      this.links = links
+    });
   }
 
 }

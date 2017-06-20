@@ -1,26 +1,31 @@
 [
 
 {
+
 "title":"Tire Promotion",
-"id": 1
+"id": 1,
+"source": "./assets/tire-promotion.json"
 
 },
 
 {
 "title":"Major Maintenance",
-"id": 2
+"id": 2,
+"source": "./assets/major.json"
 
 },
 
 {
 "title":"Minor Maintenance",
-"id": 3
+"id": 3,
+"source": "./assets/minor.json"
 
 },
 
 {
 "title":"First Scheduled Maintenance",
-"id": 4
+"id": 4,
+"source": "./assets/first-maintenance.json"
 
 },
 
