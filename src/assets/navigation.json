@@ -31,13 +31,15 @@
 
 {
 "title":"Loyalty Starter",
-"id": 5
+"id": 5,
+"source": "./assets/loyalty.json"
 
 },
 
 {
 "title":"Service to Sales",
-"id": 6
+"id": 6,
+"source": "./assets/service-sales.json"
 
 }
 

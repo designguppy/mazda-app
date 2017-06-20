@@ -22,7 +22,7 @@
 
 .sec-nav ul li:hover {
     font-weight: 700;
-    border-right: 3px solid #910a2d;
+    border-right: 4px solid #910a2d;
 
 }
 
@@ -30,12 +30,9 @@
 
 .sec-nav a {
     color: #000;
-    padding: 10px
+    padding: 10px;
 
 }
-
-
-
 
 .sec-nav a.active {
     color: #910a2d;

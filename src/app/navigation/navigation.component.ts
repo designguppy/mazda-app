@@ -11,6 +11,8 @@ import { Navigation } from "app/shared/navigation";
 
 export class NavigationComponent implements OnInit {
 
+  
+
  private links: Navigation[];
 
   constructor(private _ns: NavigationService ) {
