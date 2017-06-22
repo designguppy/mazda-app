@@ -27,5 +27,6 @@ import { FooterComponent } from './footer/footer.component';
   ],
   providers: [BannerService, NavigationService],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }

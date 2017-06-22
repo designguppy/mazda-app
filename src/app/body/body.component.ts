@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Banner } from '../shared/banner';
 import { BannerService } from "app/shared/service/banner.service";
 
@@ -9,9 +9,13 @@ import { BannerService } from "app/shared/service/banner.service";
 })
 export class BodyComponent implements OnInit {
 
+  @Input() name;
+
   private banners: Banner[];
 
   private bannerAnimation;
+
+
 
   constructor(private _bs: BannerService) {
     
@@ -30,4 +34,6 @@ export class BodyComponent implements OnInit {
     e.src = b.bannerAnimation;
   }
 
+
+  
 }

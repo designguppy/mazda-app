@@ -15,4 +15,10 @@ export class NavigationService {
       .map(res => res.json());
   }
 
+  getProject(path)
+  {
+    return this._http.get(path)
+      .map(res => res.json());
+  }
+
 }

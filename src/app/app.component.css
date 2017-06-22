@@ -1,0 +1,22 @@
+.sec-nav {
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.sec-nav ul {
+    width: 75%;
+    margin: 0 auto;
+    text-align: right;
+
+}
+
+
+
+
+.sec-nav-wrap {
+    height: 100vh;
+    width: 33%;
+    position: fixed;
+
+  }

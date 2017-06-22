@@ -4,42 +4,42 @@
 
 "title":"Tire Promotion",
 "id": 1,
-"source": "./assets/tire-promotion.json"
+"src": "./assets/tire-promotion.json"
 
 },
 
 {
 "title":"Major Maintenance",
 "id": 2,
-"source": "./assets/major.json"
+"src": "./assets/major.json"
 
 },
 
 {
 "title":"Minor Maintenance",
 "id": 3,
-"source": "./assets/minor.json"
+"src": "./assets/minor.json"
 
 },
 
 {
 "title":"First Scheduled Maintenance",
 "id": 4,
-"source": "./assets/first-maintenance.json"
+"src": "./assets/first-maintenance.json"
 
 },
 
 {
 "title":"Loyalty Starter",
 "id": 5,
-"source": "./assets/loyalty.json"
+"src": "./assets/loyalty.json"
 
 },
 
 {
 "title":"Service to Sales",
 "id": 6,
-"source": "./assets/service-sales.json"
+"src": "./assets/service-sales.json"
 
 }
 

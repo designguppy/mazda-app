@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { NavigationService } from "app/shared/service/navigation.service";
 import { Navigation } from "app/shared/navigation";
 
@@ -11,20 +11,20 @@ import { Navigation } from "app/shared/navigation";
 
 export class NavigationComponent implements OnInit {
 
-  
+  @Input() title
 
- private links: Navigation[];
-
-  constructor(private _ns: NavigationService ) {
+  constructor() {
     
   }
 
   
   ngOnInit() {
     
-    this._ns.getNavigation().subscribe( links => {
-      this.links = links
-    });
+    
+
+    
   }
+  
 
 }
+ 

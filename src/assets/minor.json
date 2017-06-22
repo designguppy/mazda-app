@@ -1,0 +1,38 @@
+[
+  {
+    "bannerName": "728x90",
+    "bannerImage": "./assets/images/minor/Minor_728x90.jpg",
+    "bannerAnimation": "./assets/images/minor/Minor_728x90.gif",
+    "segment": "Minor Maintenance"
+
+  },
+  {
+    "bannerName": "300x250",
+    "bannerImage": "./assets/images/minor/Minor_300x250.jpg",
+    "bannerAnimation": "./assets/images/minor/Minor_300x250.gif",
+    "segment": "Minor Maintenance"
+
+  },
+  {
+    "bannerName": "300x600",
+    "bannerImage": "./assets/images/minor/Minor_300x600.jpg",
+    "bannerAnimation": "./assets/images/minor/Minor_300x600.gif",
+    "segment": "Minor Maintenance"
+
+  },
+  {
+    "bannerName": "160x600",
+    "bannerImage": "./assets/images/minor/Minor_160x600.jpg",
+    "bannerAnimation": "./assets/images/minor/Minor_160x600.gif",
+    "segment": "Minor Maintenance"
+
+  },
+  {
+    "bannerName": "320x50",
+    "bannerImage": "./assets/images/minor/Minor_320x50.jpg",
+    "bannerAnimation": "./assets/images/minor/Minor_320x50.gif",
+    "segment": "Minor Maintenance"
+
+  }
+]
+

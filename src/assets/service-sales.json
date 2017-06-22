@@ -1,0 +1,38 @@
+[
+  {
+    "bannerName": "728x90",
+    "bannerImage": "./assets/images/service-sales/ServiceToSales_728x90.jpg",
+    "bannerAnimation": "./assets/images/service-sales/ServiceToSales_728x90.gif",
+    "segment": "Service To Sales"
+
+  },
+  {
+    "bannerName": "300x250",
+    "bannerImage": "./assets/images/service-sales/ServiceToSales_300x250.jpg",
+    "bannerAnimation": "./assets/images/service-sales/ServiceToSales_300x250.gif",
+    "segment": "Service To Sales"
+
+  },
+  {
+    "bannerName": "300x600",
+    "bannerImage": "./assets/images/service-sales/ServiceToSales_300x600.jpg",
+    "bannerAnimation": "./assets/images/service-sales/ServiceToSales_300x600.gif",
+    "segment": "Service To Sales"
+
+  },
+  {
+    "bannerName": "160x600",
+    "bannerImage": "./assets/images/service-sales/ServiceToSales_160x600.jpg",
+    "bannerAnimation": "./assets/images/service-sales/ServiceToSales_160x600.gif",
+    "segment": "Service To Sales"
+
+  },
+  {
+    "bannerName": "320x50",
+    "bannerImage": "./assets/images/service-sales/ServiceToSales_320x50.jpg",
+    "bannerAnimation": "./assets/images/service-sales/ServiceToSales_320x50.gif",
+    "segment": "Service To Sales"
+
+  }
+]
+
