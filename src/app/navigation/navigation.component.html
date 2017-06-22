@@ -1,3 +1,9 @@
+<div class="sec-nav-wrap">
+    <div class="sec-nav">
 
-        <li>{{title}} </li>
-     
+       <ul>
+        <li *ngFor = "let l of links" (click) = "clickNav($event, i)">
+          <a>{{l.title}}</a></li>
+        </ul>
+    </div>
+</div> 

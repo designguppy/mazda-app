@@ -1,14 +1,6 @@
 
 <app-header></app-header>
-<div class="sec-nav-wrap">
-    <div class="sec-nav">
-
-       <ul>
-<app-navigation *ngFor = "let l of links" (click) = "clickNav($event, l)" [title] = "l.title"></app-navigation>
-   </ul>
-    </div>
-</div> 
-
+<app-navigation></app-navigation>
 <app-body></app-body>
 <app-footer></app-footer>
 
