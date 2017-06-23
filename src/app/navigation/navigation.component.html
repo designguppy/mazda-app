@@ -2,7 +2,7 @@
     <div class="sec-nav">
 
        <ul>
-        <li *ngFor = "let l of links" (click) = "clickNav($event, i)">
+        <li *ngFor = "let l of links" (click) = "clickNav($event, l)">
           <a>{{l.title}}</a></li>
         </ul>
     </div>

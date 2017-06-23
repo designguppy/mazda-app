@@ -11,6 +11,7 @@ import { NavigationService } from "app/shared/service/navigation.service";
 import { HttpModule } from "@angular/http";
 import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
+import { BodyService } from "app/shared/service/body.service";
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     HttpModule
   ],
-  providers: [BannerService, NavigationService],
+  providers: [BannerService, NavigationService, BodyService],
   bootstrap: [AppComponent]
   
 })

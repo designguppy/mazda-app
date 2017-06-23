@@ -1,6 +1,8 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Banner } from '../shared/banner';
 import { BannerService } from "app/shared/service/banner.service";
+import { NavigationService } from "app/shared/service/navigation.service";
+
 
 @Component({
   selector: 'app-body',
@@ -8,6 +10,7 @@ import { BannerService } from "app/shared/service/banner.service";
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
+  
 
   @Input() name;
 
@@ -17,15 +20,18 @@ export class BodyComponent implements OnInit {
 
 
 
-  constructor(private _bs: BannerService) {
+  constructor(private _ns: NavigationService) {
     
   }
 
   ngOnInit() {
+
+    this._ns.getProject(path){
+
+
+    }
     
-    this._bs.getBanners().subscribe( banners => {
-      this.banners = banners
-    });
+    
   }
 
   private onBannerPlay(e,b)
@@ -34,6 +40,14 @@ export class BodyComponent implements OnInit {
     e.src = b.bannerAnimation;
   }
 
+  clickNav(){
+    
+
+  }
+  
+
 
   
 }
+
+
