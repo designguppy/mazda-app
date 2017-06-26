@@ -5,6 +5,8 @@ import 'rxjs';
 @Injectable()
 export class NavigationService {
 
+  private el;
+
   constructor(private _http: Http) 
   {
 
@@ -17,8 +19,13 @@ export class NavigationService {
 
   getProject(path)
   {
-    return this._http.get(path)
+    this.el=this._http.get(path)
       .map(res => res.json());
   }
 
+  getElement (){
+    return this.el;
+
+  }
+ 
 }

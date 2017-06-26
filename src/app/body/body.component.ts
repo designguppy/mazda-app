@@ -12,7 +12,7 @@ import { NavigationComponent } from "app/navigation/navigation.component";
 })
 export class BodyComponent implements OnInit {
   
-  path: string;
+ 
  
 
   private banners: Banner[];
@@ -26,6 +26,9 @@ export class BodyComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.banners = this._ns.getElement()
+    console.log(this.banners);
+    
       
   
  }

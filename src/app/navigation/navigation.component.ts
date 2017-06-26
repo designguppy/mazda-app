@@ -36,7 +36,8 @@ export class NavigationComponent implements OnInit {
 
   clickNav($event, l){
     var src = l.src;
-    this._ns.getProject(src).subscribe( path => {
+    this._ns.getProject(src)
+    this._ns.getElement().subscribe( path => {
       this.path = path;
       console.log(this.path)
     });
