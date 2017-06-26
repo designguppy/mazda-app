@@ -25,9 +25,12 @@ export class BodyComponent implements OnInit {
     
   }
 
+  
+
   ngOnInit() {
     this.banners = this._ns.getElement()
     console.log(this.banners);
+    
     
       
   
