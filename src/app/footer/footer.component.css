@@ -3,6 +3,8 @@ footer {
     width: 100%;
     background: #000;
     margin-top: 150px;
+    bottom: 0;
+    position: absolute;
     
     
 }

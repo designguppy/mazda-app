@@ -1,6 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { NavigationService } from "app/shared/service/navigation.service";
+import { BodyComponent } from "app/body/body.component";
 import { Navigation } from "app/shared/navigation";
+
 
 @Component({
   selector: 'app-navigation',
@@ -11,18 +13,7 @@ import { Navigation } from "app/shared/navigation";
 
 export class NavigationComponent implements OnInit {
 
-  _path: string;
-  
-  get path(): string {
-    return this._path;
-}
-
-@Input('path')
-set allowDay(value: string) {
-    this._path = value;
-    
-}
-  
+  path: string;
 
   
 
@@ -45,16 +36,14 @@ set allowDay(value: string) {
 
   clickNav($event, l){
     var src = l.src;
-    this.path(src:string);
-    this._ns.getProject(path).subscribe( links => {
-      this.links = links;
-      console.log(path)
-      console.log(this.links);
+    this._ns.getProject(src).subscribe( path => {
+      this.path = path;
+      console.log(this.path)
     });
 
   
 
   }
 
+
 }
- 
